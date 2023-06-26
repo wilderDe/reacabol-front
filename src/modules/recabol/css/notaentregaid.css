@@ -1,0 +1,38 @@
+.caja_orden{
+    background: rgba(102, 102, 102, 0.1);
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.title_orden{
+    background: #E9651A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 5px 0;
+}
+.caja_orden-row{
+    display: flex;
+    gap: 3.5em;
+    margin-bottom: 10px;
+}
+.btn_orden{
+    width: 130px;   
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+.btn_azul-o{
+    background: #0081DF;
+    color: #fff;
+    margin-top: 7px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}

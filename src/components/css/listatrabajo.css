@@ -1,0 +1,20 @@
+.list-oper{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background: rgba(138, 135, 135, 0.2);
+}
+
+.list-oper>span{
+    background-color: rgba(237, 2, 2, 0.8);
+    padding: 6px 3px;
+    margin: 10px 0;
+    display: block;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+

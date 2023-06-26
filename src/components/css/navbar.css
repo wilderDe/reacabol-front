@@ -1,0 +1,43 @@
+.navbar{
+    background-color: antiquewhite;
+    display: flex;
+    height: 60px;
+    position: relative;
+}
+
+.nav-left{
+    background-color:#E9651A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 50%;
+}
+.nav-left p {
+    *border: 1px solid black;
+    width: 50%;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}  
+
+.nav-rigth{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(233, 102, 26, 0.8);
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #ffffff;
+    position: absolute;
+    bottom: 0; /* Ajusta la posición vertical del triángulo */
+    left: 50%; /* Ajusta la posición horizontal del triángulo */
+    transform: translateX(-50%);
+}

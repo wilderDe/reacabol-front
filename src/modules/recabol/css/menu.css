@@ -1,0 +1,43 @@
+
+/*  SECREATARIO MENU  */
+
+.menu-content{
+    width: 80%;
+}
+.cont_perfil{
+    margin-top: 12em;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.cont_perfil p {
+    border: 1px solid black;
+    display: flex;
+    gap: 1em;
+    padding: 5px 7px;
+    border-radius: 10px;
+}
+
+.btn_menu{
+    display: flex;
+    gap: 4em;
+    background-color: #FFC700;
+    padding: 0.7em 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.btn_salir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ED0202;
+    padding: 0.7em 1em;
+    border-radius: 10px;
+    margin-top: 5em;
+}      

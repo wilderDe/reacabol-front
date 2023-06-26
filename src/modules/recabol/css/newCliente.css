@@ -1,0 +1,143 @@
+.img_perrito{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* FORMULARIO NUEVO CLIENTE */
+.form{
+    background-color: rgba(102, 102, 102, 0.1);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.form h2 {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.form-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    *background-color: aqua;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.6em;
+}
+.form-input label{
+    font-size: 13px;
+}
+.form-input input{
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    padding: 0.3em 0.3em;
+}
+
+.btn_azul{
+    background-color: #0081DF;
+    color: #fff;
+    border: none;
+    padding: 0.8em 2em;
+    border-radius: 15px;
+    margin: 3em 0;
+}
+
+/* Nuevo Neumatico */
+.row-right{
+    display: flex;
+    justify-content: end;
+    margin: 1em 0;
+}
+.btn_red{
+    width: 120px;
+    display: flex;
+    gap: 1em;
+    padding: 0.5em ;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED0202;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+.contenedor-accordion{
+    *background: #c4c4c454;
+}
+/* Animcion del acordion */
+.accordion {
+    transition: height 0.3s ease;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.open {
+    height: auto;
+}  
+.content {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+    width: 90%;
+    margin-left: 11%;
+    margin-top: 5px;
+} 
+.open .content {
+    height: auto;
+}
+/* Estilos al contenido de la cordeon */
+.accordion-title{
+    display: flex;
+    gap: 1em;
+}
+.arrow_start{
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+.arrow_end{
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.row{
+    display: flex;
+}
+.content-neumatico{
+    width: 50%;
+    margin-bottom: 5px;
+}
+.content-neumatico p:nth-child(1){
+    font-weight: bold;
+}
+
+
+/*  RECEPCIONAR */
+.content-recepcionar{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em 0;
+    text-align: center;
+    background-color: rgba(102, 102, 102, 0.1);
+}
+.btn_recep{
+    padding: 0.4em 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn_azul-recep{
+    padding: 0.8em 2em;
+    margin-top: 1.5em;
+    background-color: #0081DF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+
+.modal-neumatico{
+    position: absolute;
+    top: 10%;
+    background-color: #8A8787;
+    width: 95%;
+    height: 60vh;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 10px;
+}
+.modal-neumatico h3{
+    color: #fff;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.btn_azul-neu{
+    padding: 0.8em 2em;
+    margin-top: 2em;
+    background-color: #0081DF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn_recep{
+    padding-left: 5px;
+}
+
+

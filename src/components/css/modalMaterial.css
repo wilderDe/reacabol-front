@@ -1,0 +1,37 @@
+.modal-material{
+    position: absolute;
+    background: #9e9c9c;
+    width: 100%;
+    color: #fff;
+    padding: 20px ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.modal-material h3{
+    margin-bottom: 10px;
+}
+.modal-row{
+    display: flex;
+    gap: 1em;
+}
+.modal-item{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.modal-item > input {
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+.modal-row-center{
+    text-align: center;
+}
+.modal-row-center > input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background: #1da1ff;
+    color: #fff;
+    font-weight: bold;
+}
